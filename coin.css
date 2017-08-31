@@ -1,0 +1,187 @@
+
+/* Place Holder CSS */
+::-webkit-input-placeholder {
+  color: #000;
+  opacity: 0.5;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+:-moz-placeholder {
+  color: #000;
+  opacity: 0.5;
+  -moz-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+::-moz-placeholder {
+  color: #000;
+  opacity: 0.5;
+  -moz-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+:-ms-input-placeholder {  
+  color: #000;
+  opacity: 0.5;
+  -ms-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+
+/* Place Holder CSS for Focus */
+:hover::-webkit-input-placeholder {
+  opacity: 0.75;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+:hover:-moz-placeholder {
+  opacity: 0.75;
+  -moz-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+:hover::-moz-placeholder {
+  opacity: 0.75;
+  -moz-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+:hover:-ms-input-placeholder {  
+  opacity: 0.75;
+  -ms-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+
+/* Place Holder CSS for Focus */
+:focus::-webkit-input-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+:focus:-moz-placeholder {
+  opacity: 0;
+  -moz-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+:focus::-moz-placeholder {
+  opacity: 0;
+  -moz-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+:focus:-ms-input-placeholder {  
+  opacity: 0;
+  -ms-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+
+/* Custom Input Style */
+.niceform input, .niceform textarea
+{
+  font-size: 16px;
+  padding: px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 3px solid #bbb;
+  line-height: 20px;
+  text-indent: 5px;
+  width: 400px;
+  display: block;
+  clear: both;
+  margin-bottom: 5px;
+  
+}
+.niceform textarea
+{
+  height: 100px;
+  text-align: center;
+}
+.niceform button
+{
+  font-size: 16px;
+  padding: 6px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 0px solid #333;
+  line-height: 20px;
+  width: 200px;
+  display: block;
+  clear: both;
+  margin-bottom: 5px;
+  margin-left: 213px;
+  background-color: #666;
+  color: #CCC;
+  cursor: pointer;
+}
+.niceform button:hover, .niceform button:focus
+{
+  outline: none;
+  background-color: #444;
+  color: #EEE;
+}
+.niceform input:hover, .niceform textarea:hover
+{
+  outline: none;
+  border-color: #AAA;
+}
+.niceform input:focus, .niceform textarea:focus
+{
+  outline: none;
+  border-color: #888;
+}
+
+/* Misc Styles */
+body
+{
+  background-color: #ccc8cb;
+ margin: auto;
+
+}
+
+.set{
+    background-color: white;
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 50%;
+    margin-left: 350px;
+    
+}
+
+
+h3 ,h4{
+    margin-right: 490px;
+}
+
+.coin{
+    border: 1px solid #888;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 50px;
+    width: 550px;
+    height: 35px;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.pagination a:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.pagination a:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
